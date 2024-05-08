@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.box{
+  display: flex;
+  width: 320px;
+  height: 270px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+ border: 0.5px solid rgb(219, 212, 212);
+ 
+}
+.box>img{
+  
+ width:220px;
+ height: 220px;
+}
+.box_conatiner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ justify-content: center;
+}
+.main_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
